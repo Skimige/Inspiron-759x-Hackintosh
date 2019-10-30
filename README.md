@@ -1,6 +1,6 @@
 ## Dell Inspiron 7590/7591 Hackintosh Guidance
 
- [![Group Badge](https://img.shields.io/badge/Chat on-Telegram-419fd9)](https://t.me/hackintosh759x)
+ [![Group Badge](https://img.shields.io/badge/Chat%20on-Telegram-419fd9)](https://t.me/hackintosh759x)
 
 ### 分享的 EFI
 
