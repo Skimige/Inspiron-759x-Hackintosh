@@ -34,7 +34,7 @@ Notice: Most posts here are written in Chinese. Use a translator to help you.
 | Yes     | Brightness    | Can use Fn + F6/F7 to change after SSDT mapping fixup        |
 | Partial | Sleep         | May reboot when waking                                       |
 | Yes     | Touchpad      | Polling or GPIO, both OK.                                    |
-| Yes(?)  | Thunderbolt 3 | Waiting for more tests. Tested AMD 5700XT and can be identified by macOS (credit @missile0407); USB 3 fully working |
+| Yes     | Thunderbolt 3 | Should work. Tested AMD 5700XT and can be identified by macOS (credit @missile0407). |
 | Partial | HDMI          | Audio output problems                                        |
 | …       | …             | …                                                            |
 
