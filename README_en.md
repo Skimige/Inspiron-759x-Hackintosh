@@ -34,7 +34,7 @@ The problem that some Sharp 4K screen model of 7590 are unable to boot has been 
 
 | Status  | Name          | Note                                                         |
 | ------- | ------------- | ------------------------------------------------------------ |
-| Partial | Audio         | Internal Mic is not working (Line-in and Type-C are working properly); ComboJack need fixup, please refer to saint's [ComboJack]([https://github.com/tctien342/Dell-Inspiron-7591-Hackintosh/tree/master/ComboJack%20Alc295](https://github.com/tctien342/Dell-Inspiron-7591-Hackintosh/tree/master/ComboJack Alc295)) |
+| Partial | Audio         | Internal Mic is not working (Line-in and Type-C are working properly); ComboJack need fixup, please refer to saint's [ComboJack](https://github.com/tctien342/Dell-Inspiron-7591-Hackintosh/tree/master/ComboJack%20Alc295) |
 | Replace | NIC           | Suggested DW1820A model is: `CN-0VW3T3 BCM94350ZAE ~:0021`;<br />don't use DW1830, its width is wider than the free space;<br />if you get enough money, use DW1560 which is much more stable and easy to configurate (~USD 60) |
 | No      | Fingerprint   | Impossible to add support lol                                |
 | Yes     | Brightness    | Can use Fn + F6/F7 to change after SSDT mapping fixup        |

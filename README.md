@@ -32,7 +32,7 @@
 
 | 支持 | 名称          | 备注                                                         |
 | ---- | ------------- | ------------------------------------------------------------ |
-| 部分 | 声卡          | 内置麦克风未驱动（线路输入和 Type-C 可正常使用）；ComboJack 需要修复，参考 saint 的 [ComboJack]([https://github.com/tctien342/Dell-Inspiron-7591-Hackintosh/tree/master/ComboJack%20Alc295](https://github.com/tctien342/Dell-Inspiron-7591-Hackintosh/tree/master/ComboJack Alc295)) |
+| 部分 | 声卡          | 内置麦克风未驱动（线路输入和 Type-C 可正常使用）；ComboJack 需要修复，参考 saint 的 [ComboJack](https://github.com/tctien342/Dell-Inspiron-7591-Hackintosh/tree/master/ComboJack%20Alc295) |
 | 替换 | 网卡          | DW1820A 建议的型号是 `CN-0VW3T3 BCM94350ZAE ~:0021`；不可使用 DW1830（超宽）；<br />如果手头宽裕建议考虑更加稳定的 DW1560（~RMB 300+） |
 | 否   | 指纹识别      | 一辈子都不可能支持的.jpg                                     |
 | 是   | 亮度调节      | 经映射修复后可以使用原按键（Fn + F6/F7）调节                 |
