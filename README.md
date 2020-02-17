@@ -4,14 +4,20 @@
 
 ### 分享的 EFI
 
-| 分享者      | 对应机种                                                     | 下载链接                                                     |
-| ----------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Skimige     | 7590 4K                                                      | [OneDrive](https://caomsacid0-my.sharepoint.com/:u:/g/personal/skimige_caoms_ac_id/EePW1NdVOPpOpwrPUUMvwhIBDjzTnVIh7RNxnEGvvUbUeQ?e=qJGOA5) |
-| LinZong     | 7590 1080p                                                   | [GitHub](https://github.com/LinZong/dell-inspiron-7590-hackintosh) |
-| chtzs       | 7590 4K                                                      | [Gitee](https://gitee.com/chtzs/Dell-Inspiron-7590-4k-Hackintosh) |
-| kawauso     | 7590 4K                                                      | [GitHub](https://github.com/sotyou/Dell-Inspiron-7590-Mojave) |
-| saintno1997 | 7591 | [GitHub](https://github.com/tctien342/Dell-Inspiron-7591-Hackintosh)                                                             |
-| missile0407 | 7590 1080p                                                   | [tonymacx86](https://www.tonymacx86.com/threads/nearly-success-catalina-on-dell-inspiron-7590.285606/) |
+在以下 EFI 中，我们最推荐的是 saintno1997 (GitHub @tctien342) 维护的 EFI。
+
+虽然是 7591，但是实测 7590 也可以使用。
+
+部分夏普 4K 屏 7590 遇到的无法启动问题已经解决，请使用新版 WhateverGreen，并参考 [PR #16](https://github.com/tctien342/Dell-Inspiron-7591-Hackintosh/pull/16) 配置你的 config。
+
+| 分享者        | 对应机种   | 下载链接                                                     |
+| ------------- | ---------- | ------------------------------------------------------------ |
+| Skimige       | 7590 4K    | [OneDrive](https://caomsacid0-my.sharepoint.com/:u:/g/personal/skimige_caoms_ac_id/EePW1NdVOPpOpwrPUUMvwhIBDjzTnVIh7RNxnEGvvUbUeQ?e=qJGOA5) |
+| LinZong       | 7590 1080p | [GitHub](https://github.com/LinZong/dell-inspiron-7590-hackintosh) |
+| chtzs         | 7590 4K    | [Gitee](https://gitee.com/chtzs/Dell-Inspiron-7590-4k-Hackintosh) |
+| kawauso       | 7590 4K    | [GitHub](https://github.com/sotyou/Dell-Inspiron-7590-Mojave) |
+| ★ saintno1997 | 7591       | [GitHub](https://github.com/tctien342/Dell-Inspiron-7591-Hackintosh) |
+| missile0407   | 7590 1080p | [tonymacx86](https://www.tonymacx86.com/threads/nearly-success-catalina-on-dell-inspiron-7590.285606/) |
 
 ### 也许有用的文章 or 帖子
 
@@ -26,12 +32,12 @@
 
 | 支持 | 名称          | 备注                                                         |
 | ---- | ------------- | ------------------------------------------------------------ |
-| 部分 | 声卡          | 麦克风未驱动；ComboJack 可能需要修复                         |
-| 替换 | 网卡          | DW1820A 建议 `CN-0VW3T3 BCM94350ZAE ~:0021`；不可使用 DW1830（超宽） |
+| 部分 | 声卡          | 内置麦克风未驱动（线路输入和 Type-C 可正常使用）；ComboJack 需要修复，参考 saint 的 [ComboJack]([https://github.com/tctien342/Dell-Inspiron-7591-Hackintosh/tree/master/ComboJack%20Alc295](https://github.com/tctien342/Dell-Inspiron-7591-Hackintosh/tree/master/ComboJack Alc295)) |
+| 替换 | 网卡          | DW1820A 建议的型号是 `CN-0VW3T3 BCM94350ZAE ~:0021`；不可使用 DW1830（超宽）；<br />如果手头宽裕建议考虑更加稳定的 DW1560（~RMB 300+） |
 | 否   | 指纹识别      | 一辈子都不可能支持的.jpg                                     |
 | 是   | 亮度调节      | 经映射修复后可以使用原按键（Fn + F6/F7）调节                 |
 | 部分 | 睡眠          | 可能会睡死                                                   |
 | 是   | 触控板        | 轮询和 GPIO 中断均可用                                       |
 | 是   | Thunderbolt 3 | 显卡坞 + 5700XT 群友测试可识别（感谢 @missile0407），应该没什么问题 |
-| 部分 | HDMI          | 音频输出有问题等                                             |
+| 部分 | HDMI          | 音频输出有问题等；如果配置得好，可能会解决大部分问题         |
 | …    | …             | …                                                            |
