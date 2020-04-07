@@ -54,6 +54,7 @@ Pinming 的版本是从 saintno 的版本修改而来。
 </tbody>
 </table>
 </details>
+
 ### 也许有用的文章 or 帖子
 
 - [Dell Inspiron 7590 顶配版不负责评测 - Skimige's Blog](https://ikevin.in/post/2019/08/06/005-dell-inspiron-7590-4k-review.html)
